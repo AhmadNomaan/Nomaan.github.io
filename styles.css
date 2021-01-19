@@ -305,3 +305,69 @@ a{
     }
 
 }  
+
+/* Mobile View*/
+
+@media screen and (max-width:460px){
+
+    body{
+        background-image: url("img/background-accent-1.png"), url("img/background-accent-2.png");
+        background-color: #3282B8;
+        background-size: 30%, 50%;
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+        background-attachment: fixed;
+        font-family: 'Raleway', sans-serif;
+    }
+    .container{
+        width: 90%;
+        display: block;
+    }
+
+    .mugshot{
+        display: block;
+        max-width: 45%;
+        height: 27%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5%;    
+    }
+
+    .content{
+        
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 8%;
+        width: 90%;
+        height: fit-content;
+    }
+
+    .text-main{
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 2%;
+    }
+    .btns-container{
+        position: relative;
+        top: 3%;
+        padding-top: 3%;
+    }
+
+    .socials-sm{
+        position: relative;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
+
+}
+
